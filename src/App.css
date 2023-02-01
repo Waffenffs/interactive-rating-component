@@ -1,0 +1,93 @@
+.ratingContainer,
+.endContainer {
+    background-color: #1e252f;
+    color: #edf3f4;
+    padding: 50px;
+    border-radius: 5px;
+    width: 70vh;
+}
+
+.endContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating {
+    background-color: #262f38;
+    padding: 12px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    margin-top: 20px;
+}
+
+.para1 {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.iconContainer {
+    background-color: #262f38;
+    width: 10%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.unselected,
+.selected {
+    border-radius: 50%;
+    border: none;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #262f38;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.unselected:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submitButton {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+.submitButton:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.paragraph {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+}

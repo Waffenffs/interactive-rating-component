@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
